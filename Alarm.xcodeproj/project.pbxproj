@@ -12,6 +12,8 @@
 		1AA4D2A2209BC5950018F67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA4D2A0209BC5950018F67F /* Main.storyboard */; };
 		1AA4D2A4209BC59A0018F67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA4D2A3209BC59A0018F67F /* Assets.xcassets */; };
 		1AA4D2A7209BC59A0018F67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA4D2A5209BC59A0018F67F /* LaunchScreen.storyboard */; };
+		61E8819F2A6CB54900550FEA /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8819E2A6CB54900550FEA /* Alarm.swift */; };
+		61E881A12A6CC94200550FEA /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E881A02A6CC94200550FEA /* Notification.swift */; };
 		F74160C226B35BD900B6ABB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74160C126B35BD900B6ABB1 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		1AA4D2A3209BC59A0018F67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA4D2A6209BC59A0018F67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AA4D2A8209BC59A0018F67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E8819E2A6CB54900550FEA /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		61E881A02A6CC94200550FEA /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		F74160C126B35BD900B6ABB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,8 @@
 				1AA4D2A3209BC59A0018F67F /* Assets.xcassets */,
 				1AA4D2A5209BC59A0018F67F /* LaunchScreen.storyboard */,
 				1AA4D2A8209BC59A0018F67F /* Info.plist */,
+				61E8819E2A6CB54900550FEA /* Alarm.swift */,
+				61E881A02A6CC94200550FEA /* Notification.swift */,
 			);
 			path = Alarm;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA4D29F209BC5950018F67F /* ViewController.swift in Sources */,
+				61E881A12A6CC94200550FEA /* Notification.swift in Sources */,
 				1AA4D29D209BC5950018F67F /* AppDelegate.swift in Sources */,
 				F74160C226B35BD900B6ABB1 /* SceneDelegate.swift in Sources */,
+				61E8819F2A6CB54900550FEA /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
